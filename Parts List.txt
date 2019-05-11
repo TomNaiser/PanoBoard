@@ -1,0 +1,215 @@
+From Amazon:
+Arduino Nano Clone (1 piece)
+
+Slide-Switch, MINI, ON-ON, RIGHT ANGLE 450302014072 By WURTH ELEKTRONIK  (1 piece)
+
+SHOOT Rm-vpr1 remote shutter switch for Sony cameras (1 piece) (diassemble, you only need the connector to the camera, which looks like a usb, but actually isn't one)
+
+Hitec Sail Winch Servo HS-785 HB (2 pieces)
+
+From Servo City:
+TM-700 Servo Gearbox with (I use a gear ratio of 3:1, however possibly 5:1 or 7:1 will enable better positioning accuracy) 
+(2 pieces)
+
+
+From Mouser:
+
+1	
+SparkFun Bluetooth Modem - BlueSMiRF Gold 474-WRL-12582  WRL-12582
+1 piece
+
+2	
+Headers & Wire Housings Headers & Wire Housings 
+437-8018300620001101
+801-83-006-20-001101
+
+
+3	
+Magnetic Sensor Development Tools Magnetic Sensor Development Tools Adapter Board with I2C Interface
+985-AS5048B-TS_EK_AB
+AS5048B-TS_EK_AB
+Adapter Board
+2 pieces	
+
+
+4	
+DC Power Cords DC Power Cords PicoBlade CBL ASSY 14CKT 600MM NTL
+538-15134-1406
+15134-1406
+PicoBlade CBL ASSY
+1 or 2 pieces
+
+5	
+Headers & Wire Housings Headers & Wire Housings RIGHT ANGLE HDR 4P
+538-53048-0410
+53048-0410
+RIGHT ANGLE HDR 4P
+
+6	
+Headers & Wire Housings Headers & Wire Housings VERTICAL HDR 4P
+538-53047-0410
+53047-0410
+VERTICAL HDR 4P
+
+
+7	
+Headers & Wire Housings Headers & Wire Housings RIGHT ANGLE HDR 3P
+538-53048-0310
+53048-0310
+RIGHT ANGLE HDR 3P
+
+
+8	
+Headers & Wire Housings Headers & Wire Housings RIGHT ANGLE HDR 2P
+538-53048-0210
+53048-0210
+RIGHT ANGLE HDR 2P
+
+
+9	
+Headers & Wire Housings Headers & Wire Housings RECEPTACLE 4 POS
+538-51021-0400
+51021-0400
+RECEPTACLE 4 POS
+
+
+10	
+Headers & Wire Housings Headers & Wire Housings RECEPTACLE 3 POS
+538-51021-0300
+51021-0300
+RECEPTACLE 3 POS
+
+
+11	
+Headers & Wire Housings Headers & Wire Housings RECEPTACLE 2P
+538-51021-0200
+51021-0200
+RECEPTACLE 2P
+
+
+12	
+SparkFun Accessories SparkFun Accessories DC Barrel Power Jack/Connector
+474-PRT-00119
+PRT-00119
+1 piece
+
+13	
+Motor/Motion/Ignition Controllers & Drivers Motor/Motion/Ignition Controllers & Drivers Dual Full Bridge
+511-L298
+L298N
+Dual Full Bridge
+1 piece
+
+14	
+Transistor Output Optocouplers Transistor Output Optocouplers PTR 100%, 3.5KV
+859-4N35
+4N35
+PTR 100%, 3.5KV
+2 pieces
+
+15	
+Transistor Output Optocouplers Transistor Output Optocouplers Phototransistor Out Single CTR 63-125%
+782-SFH618A-2
+SFH618A-2
+Phototransistor Out
+2 pieces
+
+16	
+Schottky Diodes & Rectifiers Schottky Diodes & Rectifiers Vr/40V Io/1A AMMO
+511-1N5819
+1N5819
+Vr/40V Io/1A AMMO
+8 pieces
+
+17	
+Aluminium Electrolytic Capacitors - Radial Leaded Aluminium Electrolytic Capacitors - Radial Leaded 50volts 0.1uF 4x7 20% 1.5LS
+647-USP1H0R1MDD
+USP1H0R1MDD
+50volts 0.1uF
+2 pieces
+
+18	
+Aluminium Electrolytic Capacitors - Radial Leaded Aluminium Electrolytic Capacitors - Radial Leaded 100UF 100V
+661-EKMQ101ELL101MJ1
+EKMQ101ELL101MJ16S
+100UF 100V
+2 pieces
+
+19	
+Thick Film Resistors - SMD Thick Film Resistors - SMD 1210 220ohms 1% AEC-Q200667-ERJ-14NF2200U
+ERJ-14NF2200U
+1210 220ohms
+
+
+20	
+Thick Film Resistors - SMD Thick Film Resistors - SMD 1210 39Kohm 1% High Voltage
+755-KTR25JZPF3902
+KTR25JZPF3902
+1210 39Kohm 1%
+
+
+21	
+Thick Film Resistors - SMD Thick Film Resistors - SMD 1210 3.9Kohms 1% AEC-Q200
+667-ERJ-14NF3901U
+ERJ-14NF3901U
+1210 3.9Kohms
+
+22	
+Thick Film Resistors - SMD Thick Film Resistors - SMD 1210 2.2Kohms 5% AEC-Q200
+667-ERJ-14YJ222U
+ERJ-14YJ222U
+1210 2.2Kohms
+
+
+23	
+Thick Film Resistors - SMD Thick Film Resistors - SMD CRGP 1210 1K0 1% SMD Resistor
+279-CRGP1210F1K0
+CRGP1210F1K0
+CRGP 1210 1K0 1%
+
+
+24	
+Thick Film Resistors - SMD Thick Film Resistors - SMD CRGCQ 1210 2K7 1% SMD Resistor
+279-CRGCQ1210F2K7
+CRGCQ1210F2K7
+CRGCQ 1210 2K7 1%
+
+25	
+Standard LEDs - SMD Standard LEDs - SMD 3.2X1.6MM LOW CRNT
+604-APT3216LZGCK
+APT3216LZGCK
+3.2X1.6MM LOW CRNT
+
+
+26	
+Headers & Wire Housings Headers & Wire Housings 
+437-8018705010001101
+801-87-050-10-001101
+
+
+27	
+Headers & Wire Housings Headers & Wire Housings 25+25 DIL VERTICAL PIN HEADER GOLD HT
+855-M20-9722545
+M20-9722545
+25+25 DIL VERTICAL
+
+28	
+Headers & Wire Housings Headers & Wire Housings 2.54MM 0.1" 15-PIN FEMALE HEADER
+992-15FX1-254MM
+15Fx1-254mm
+2.54MM 0.1" 15-PIN
+	
+
+29	
+Headers & Wire Housings Headers & Wire Housings KK 100 Hdr Assy RA B y RA Bkwy 06 Ckt Tin
+538-22-28-7061
+22-28-7061
+KK 100 Hdr Assy RA B
+
+
+30	
+Headers & Wire Housings Headers & Wire Housings 50P SINGLE ROW
+571-5-826629-0
+5-826629-0
+50P SINGLE ROW
+	
