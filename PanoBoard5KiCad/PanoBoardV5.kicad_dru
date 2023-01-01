@@ -1,0 +1,20 @@
+(version 1)
+(rule "class 0:0"
+  (condition "A.NetClass == 'default' && B.NetClass == 'Default'")
+  (constraint clearance (min 0.254mm)))
+
+(rule "class 1:1"
+  (condition "A.NetClass == 'power' && B.NetClass == 'power'")
+  (constraint clearance (min 0.254mm)))
+
+(rule "class 2:2"
+  (condition "A.NetClass == 'signal' && B.NetClass == 'signal'")
+  (constraint clearance (min 0.254mm)))
+
+(rule "class 3:3"
+  (condition "A.NetClass == 'power5v' && B.NetClass == 'power5v'")
+  (constraint clearance (min 0.254mm)))
+
+(rule "class 4:4"
+  (condition "A.NetClass == 'motor' && B.NetClass == 'motor'")
+  (constraint clearance (min 0.254mm)))

@@ -1,0 +1,228 @@
+
+(rules PCB PanoBoardV4b
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (eu.mihosoft.freerouting.autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1256)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.2)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.8)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 152.6)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 38.2 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-1]_914.4:508_um"
+    (shape
+      (circle F.Cu 914.4 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 914.4 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-1]_1041.4:635_um"
+    (shape
+      (circle F.Cu 1041.4 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 1041.4 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-1]_756.4:350_um"
+    (shape
+      (circle F.Cu 756.4 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 756.4 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_914.4:508_um" "Via[0-1]_914.4:508_um" default
+  )
+  (via 
+    "Via[0-1]_1041.4:635_um" "Via[0-1]_1041.4:635_um" default
+  )
+  (via 
+    "Via[0-1]_756.4:350_um" "Via[0-1]_756.4:350_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_914.4:508_um-kicad_default" "Via[0-1]_914.4:508_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_1041.4:635_um-kicad_default" "Via[0-1]_1041.4:635_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_756.4:350_um-kicad_default" "Via[0-1]_756.4:350_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-motor" "Via[0-1]_800:400_um" motor
+  )
+  (via 
+    "Via[0-1]_914.4:508_um-motor" "Via[0-1]_914.4:508_um" motor
+  )
+  (via 
+    "Via[0-1]_1041.4:635_um-motor" "Via[0-1]_1041.4:635_um" motor
+  )
+  (via 
+    "Via[0-1]_756.4:350_um-motor" "Via[0-1]_756.4:350_um" motor
+  )
+  (via 
+    "Via[0-1]_800:400_um-power" "Via[0-1]_800:400_um" power
+  )
+  (via 
+    "Via[0-1]_914.4:508_um-power" "Via[0-1]_914.4:508_um" power
+  )
+  (via 
+    "Via[0-1]_1041.4:635_um-power" "Via[0-1]_1041.4:635_um" power
+  )
+  (via 
+    "Via[0-1]_756.4:350_um-power" "Via[0-1]_756.4:350_um" power
+  )
+  (via 
+    "Via[0-1]_800:400_um-power5v" "Via[0-1]_800:400_um" power5v
+  )
+  (via 
+    "Via[0-1]_914.4:508_um-power5v" "Via[0-1]_914.4:508_um" power5v
+  )
+  (via 
+    "Via[0-1]_1041.4:635_um-power5v" "Via[0-1]_1041.4:635_um" power5v
+  )
+  (via 
+    "Via[0-1]_756.4:350_um-power5v" "Via[0-1]_756.4:350_um" power5v
+  )
+  (via 
+    "Via[0-1]_800:400_um-signal" "Via[0-1]_800:400_um" signal
+  )
+  (via 
+    "Via[0-1]_914.4:508_um-signal" "Via[0-1]_914.4:508_um" signal
+  )
+  (via 
+    "Via[0-1]_1041.4:635_um-signal" "Via[0-1]_1041.4:635_um" signal
+  )
+  (via 
+    "Via[0-1]_756.4:350_um-signal" "Via[0-1]_756.4:350_um" signal
+  )
+  (via_rule
+    default "Via[0-1]_756.4:350_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    motor "Via[0-1]_914.4:508_um-motor"
+  )
+  (via_rule
+    power "Via[0-1]_1041.4:635_um-power"
+  )
+  (via_rule
+    power5v "Via[0-1]_914.4:508_um-power5v"
+  )
+  (via_rule
+    signal "Via[0-1]_756.4:350_um-signal"
+  )
+  (class default
+    "Net-(ARDUINO_NANO1-Pad8)" "Net-(ARDUINO_NANO1-Pad9)" "Net-(ARDUINO_NANO1-Pad15)" "Net-(ARDUINO_NANO1-Pad16)" "Net-(ARDUINO_NANO1-Pad17)" "Net-(ARDUINO_NANO1-Pad20)" "Net-(ARDUINO_NANO1-Pad21)" "Net-(ARDUINO_NANO1-Pad22)"
+    "/SHUTTER_SNY" "/FOCUS_SNY" "Net-(ARDUINO_NANO1-Pad27)" "Net-(ARDUINO_NANO1-Pad29)" "Net-(ARDUINO_NANO1-Pad30)" "Net-(D1-PadA)" "Net-(D3-PadA)" "Net-(D5-PadA)"
+    "Net-(D6-PadA)" "Net-(D9-PadC)" "Net-(D10-PadC)" "Net-(D11-PadC)" "Net-(D12-PadC)" "Net-(D13-PadC)" "Net-(OK1-Pad2)" "Net-(OK1-Pad3)"
+    "Net-(OK1-Pad4)" "Net-(OK2-Pad2)" "Net-(OK2-Pad4)" "unconnected-(S1-Pad2)" "unconnected-(SV3-Pad1)" "unconnected-(SV3-Pad6)" "Net-(JP2-Pad1)" "unconnected-(ARDUINO_NANO1-Pad1)"
+    "unconnected-(ARDUINO_NANO1-Pad2)" "unconnected-(ARDUINO_NANO1-Pad3)" "unconnected-(ARDUINO_NANO1-Pad4)" "unconnected-(ARDUINO_NANO1-Pad5)" "unconnected-(ARDUINO_NANO1-Pad6)" "unconnected-(ARDUINO_NANO1-Pad7)" "unconnected-(ARDUINO_NANO1-Pad10)" "unconnected-(ARDUINO_NANO1-Pad11)"
+    "unconnected-(ARDUINO_NANO1-Pad13)" "unconnected-(ARDUINO_NANO1-Pad18)" "unconnected-(ARDUINO_NANO1-Pad25)" "unconnected-(ARDUINO_NANO1-Pad26)" "unconnected-(ARDUINO_NANO1-Pad28)"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class motor
+    (clearance_class motor)
+    (via_rule motor)
+    (rule
+      (width 1016.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class power
+    GND V+
+    (clearance_class power)
+    (via_rule power)
+    (rule
+      (width 1270.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class power5v
+    +5V
+    (clearance_class power5v)
+    (via_rule power5v)
+    (rule
+      (width 889.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class signal
+    (clearance_class signal)
+    (via_rule signal)
+    (rule
+      (width 508.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
